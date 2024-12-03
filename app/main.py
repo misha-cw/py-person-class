@@ -15,4 +15,5 @@ def create_person_list(people: list) -> list:
                 result[i].husband = person
             if "wife" in people[i] and people[i]["wife"] == person.name:
                 result[i].wife = person
+
     return result
